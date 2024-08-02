@@ -18,7 +18,9 @@ public class IteratorExample {
         list.add("A");
         list.add("B");
         list.add("C");
-
+        list.add("D");
+        
+ 
         Iterator<String> iterator = list.iterator();
         while (iterator.hasNext()) {
             String element = iterator.next();
