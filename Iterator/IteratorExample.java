@@ -15,11 +15,10 @@ public class IteratorExample {
     public static void main(String[] args) {
     	// Example 1: Using an Iterator with a List
         ArrayList<String> list = new ArrayList<>();
+        list.add("C");
         list.add("A");
         list.add("B");
-        list.add("C");
         list.add("D");
-        
  
         Iterator<String> iterator = list.iterator();
         while (iterator.hasNext()) {
